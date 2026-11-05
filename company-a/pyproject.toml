@@ -1,0 +1,14 @@
+[project]
+name = "company-a"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aio-pika>=10.2.2",
+    "fastapi>=0.162.0",
+    "httpx>=0.28.1",
+    "limits[redis]>=5.8.0",
+    "pydantic-settings>=2.16.2",
+    "uvicorn>=0.54.0",
+]
